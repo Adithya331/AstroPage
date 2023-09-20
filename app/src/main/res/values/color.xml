@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navigate_blue">#17A1FA</color>
+    <color name="purple_500">#A46CFA</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="astro_blue">#2446A5</color>
+    <color name="lite_blue">#556DC6</color>
+    <color name="instructions_blue">#3759B9</color>
+    <color name="nf_blue_bg">#F2F5FF</color>
+    <color name="Grey">#808080</color>
+    <color name="Green">#27C052</color>
+    <color name="blue_bg">#EBF0FF</color>
+    <color name="Astro_purplE">#BB86FC</color>
+    <color name="background">#121212</color>
+    <color name="selected_row">#292929</color>
+</resources>
