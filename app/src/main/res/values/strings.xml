@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">AstroPage</string>
+    <string name="back">Back</string>
+    <string name="row_1">1</string>
+    <string name="home">Home</string>
+    <string name="row_2">2</string>
+    <string name="see_instructions">See Instructions</string>
+    <string name="row_3">3</string>
+    <string name="pause_session">Pause Session</string>
+    <string name="row_4">4</string>
+    <string name="transfer_session">Transfer Session</string>
+    <string name="row_5">5</string>
+    <string name="summary">Summary</string>
+    <string name="row_6">6</string>
+    <string name="log_out">Log Out</string>
+
 </resources>

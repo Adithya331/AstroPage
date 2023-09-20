@@ -19,7 +19,6 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         TableRow home = findViewById(R.id.home);
         TableRow seeInstructions = findViewById(R.id.see_instructions);
         TableRow pauseSession = findViewById(R.id.pause_session);

@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        android:text="Back"
+        android:text="@string/back"
         android:textColor="#BB86FC"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -22,7 +22,7 @@
         app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4"></TextView>
+        app:layout_constraintVertical_bias="0.4" />
 
     <TableLayout
         android:id="@+id/tableLayout"
@@ -47,10 +47,10 @@
                 android:layout_marginTop="6dp"
                 android:background="@drawable/unselected_item"
                 android:paddingTop="2dp"
-                android:text="1"
+                android:text="@string/row_1"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -59,10 +59,9 @@
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginBottom="6dp"
-
-                android:text="Home"
+                android:text="@string/home"
                 android:textColor="@color/white"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 />
         </TableRow>
@@ -81,10 +80,10 @@
                 android:layout_marginTop="6dp"
                 android:background="@drawable/unselected_item"
                 android:paddingTop="2dp"
-                android:text="2"
+                android:text="@string/row_2"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -93,7 +92,7 @@
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginBottom="6dp"
-                android:text="See Instructions"
+                android:text="@string/see_instructions"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -112,10 +111,10 @@
                 android:layout_marginTop="6dp"
                 android:background="@drawable/unselected_item"
                 android:paddingTop="2dp"
-                android:text="3"
+                android:text="@string/row_3"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -124,7 +123,7 @@
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginBottom="6dp"
-                android:text="Pause Session"
+                android:text="@string/pause_session"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -143,10 +142,10 @@
                 android:layout_marginTop="6dp"
                 android:background="@drawable/unselected_item"
                 android:paddingTop="2dp"
-                android:text="4"
+                android:text="@string/row_4"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -155,7 +154,7 @@
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginBottom="6dp"
-                android:text="Transfer Session"
+                android:text="@string/transfer_session"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -176,10 +175,10 @@
                 android:layout_marginTop="6dp"
                 android:background="@drawable/unselected_item"
                 android:paddingTop="2dp"
-                android:text="5"
+                android:text="@string/row_5"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -188,7 +187,7 @@
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginBottom="6dp"
-                android:text="Summary"
+                android:text="@string/summary"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -207,10 +206,10 @@
                 android:layout_marginTop="6dp"
                 android:background="@drawable/unselected_item"
                 android:paddingTop="2dp"
-                android:text="6"
+                android:text="@string/row_6"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -219,10 +218,11 @@
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginBottom="6dp"
-                android:text="Log Out"
+                android:text="@string/log_out"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
         </TableRow>
 
 
